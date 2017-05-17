@@ -4,7 +4,7 @@
   "description": "web notifications to remind you to stay sane",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node app/server.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "~1.0.1",
+    "coffeescript": "^1.12.6",
     "dotenv-safe": "^4.0.3",
     "express": "^4.11.0",
     "request": "^2.81.0"
