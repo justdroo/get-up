@@ -1,0 +1,24 @@
+{
+  "name": "little-reminders",
+  "version": "0.1.0",
+  "description": "web notifications to remind you to stay sane",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justdroo/friendly-tweeter"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "dotenv-safe": "^4.0.3",
+    "express": "^4.11.0",
+    "request": "^2.81.0"
+  },
+  "engines": {
+    "node": "6.9.5",
+    "npm": "4.4.4"
+  }
+}
