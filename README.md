@@ -12,6 +12,6 @@ A quick project to practice CoffeeScript, uses push notifications to remind the 
 
 Make sure to have both the server and webpage running & open to receive notifications
 
-#####CoffeeScript compile whole folder
+##### CoffeeScript compile whole folder
 
 `$ coffee -w -o app/ -c coffeescripts/`
